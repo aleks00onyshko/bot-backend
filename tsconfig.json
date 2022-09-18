@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2021",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "strict": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["es2021"],
+    "paths": {
+      "config": ["./src/config"],
+      "models": ["./src/models"],
+      "core": ["./src/core"],
+      "core/enums": ["./src/core/enums"],
+      "core/services": ["./src/core/services"],
+      "helpers": ["./src/helpers"],
+      "utils": ["./src/utils"],
+      "DI": ["./src/helpers/DI"]
+    },
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "exclude": ["telegram-web-app-sample"]
+}
